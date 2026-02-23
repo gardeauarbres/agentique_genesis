@@ -1,0 +1,10 @@
+# Baseline dependencies for the Streamlit + LangChain Core stack.
+# Compatible with the repository toolchain target (Python 3.10+).
+streamlit>=1.42.0
+langchain-core>=0.3.0
+
+# Free tools for web search/fetch and lightweight testing.
+ddgs>=9.0.0
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+pytest>=8.0.0

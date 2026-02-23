@@ -11,3 +11,6 @@ lint.ignore = ["E501"] # Laissé à Black
 [tool.isort]
 profile = "black"
 line_length = 120
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
