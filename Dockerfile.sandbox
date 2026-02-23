@@ -1,0 +1,8 @@
+FROM python:3.12-slim-bookworm
+
+# Aucun accès réseau - pas de pip install supplémentaire
+# Bibliothèques scientifiques pré-installées
+COPY requirements_sandbox.txt /tmp/req.txt
+RUN pip install --no-cache-dir -r /tmp/req.txt
+
+WORKDIR /sandbox

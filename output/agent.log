@@ -1,0 +1,520 @@
+2026-02-22 17:48:26,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:48:26,315 - INFO - Tool: list_files -> 4 fichiers
+2026-02-22 17:48:45,195 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:49:00,988 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:49:23,775 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:57:57,798 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:57:58,061 - INFO - Tool: list_files -> 4 fichiers
+2026-02-22 17:58:16,497 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:59:19,051 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 17:59:58,588 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:38:07,867 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:38:08,152 - INFO - Tool: web_search -> société qui a développé le modèle IA Claude 3.5
+2026-02-22 18:38:08,612 - INFO - response: https://www.bing.com/search?q=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+le+mod%C3%A8le+IA+Claude+3.5 200
+2026-02-22 18:40:07,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:40:07,692 - INFO - Tool: web_search -> développeur modèle IA Claude 3.5
+2026-02-22 18:40:08,000 - INFO - response: https://www.bing.com/search?q=d%C3%A9veloppeur+mod%C3%A8le+IA+Claude+3.5 200
+2026-02-22 18:40:55,136 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:40:55,418 - INFO - Tool: web_search -> société qui a developpe Claude 3.5
+2026-02-22 18:40:55,851 - INFO - response: https://www.bing.com/search?q=soci%C3%A9t%C3%A9+qui+a+developpe+Claude+3.5 200
+2026-02-22 18:41:20,630 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:41:20,917 - INFO - Tool: web_search -> qui a développé le modèle d'IA Claude 3.5
+2026-02-22 18:41:20,917 - WARNING - Impersonate 'safari_17.5' does not exist, using 'random'
+2026-02-22 18:41:21,444 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=qui%20a%20d%C3%A9velopp%C3%A9%20le%20mod%C3%A8le%20d%27IA%20Claude%203.5 200
+2026-02-22 18:41:21,602 - INFO - response: https://grokipedia.com/api/typeahead?query=qui+a+d%C3%A9velopp%C3%A9+le+mod%C3%A8le+d%27IA+Claude+3.5&limit=1 200
+2026-02-22 18:41:22,401 - INFO - response: https://yandex.com/search/site/?text=qui+a+d%C3%A9velopp%C3%A9+le+mod%C3%A8le+d%27IA+Claude+3.5&web=1&searchid=1070689 200
+2026-02-22 18:42:20,307 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:42:20,600 - INFO - Tool: web_search -> développeur Claude 3.5
+2026-02-22 18:42:20,817 - INFO - response: https://www.bing.com/search?q=d%C3%A9veloppeur+Claude+3.5 200
+2026-02-22 18:43:12,445 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:43:12,746 - INFO - Tool: web_search -> qui a developpe le modele d'IA Claude 3.5
+2026-02-22 18:43:13,125 - INFO - response: https://grokipedia.com/api/typeahead?query=qui+a+developpe+le+modele+d%27IA+Claude+3.5&limit=1 200
+2026-02-22 18:43:13,152 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=qui%20a%20developpe%20le%20modele%20d%27IA%20Claude%203.5 200
+2026-02-22 18:43:14,125 - INFO - response: https://search.brave.com/search?q=qui+a+developpe+le+modele+d%27IA+Claude+3.5&source=web 200
+2026-02-22 18:45:14,773 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:45:15,054 - INFO - Tool: web_search -> qui a developpe le modele IA Claude 3.5
+2026-02-22 18:45:15,376 - INFO - response: https://www.bing.com/search?q=qui+a+developpe+le+modele+IA+Claude+3.5 200
+2026-02-22 18:46:14,686 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:49:18,366 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:49:31,502 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:50:24,204 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:50:27,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:51:08,562 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:51:35,365 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:51:35,632 - INFO - Tool: web_search -> société qui a développé Claude 3.5
+2026-02-22 18:51:35,632 - WARNING - Impersonate 'safari_18' does not exist, using 'random'
+2026-02-22 18:51:36,176 - INFO - response: https://grokipedia.com/api/typeahead?query=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+Claude+3.5&limit=1 200
+2026-02-22 18:51:36,210 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=soci%C3%A9t%C3%A9%20qui%20a%20d%C3%A9velopp%C3%A9%20Claude%203.5 200
+2026-02-22 18:51:37,564 - INFO - response: https://www.mojeek.com/search?q=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+Claude+3.5 200
+2026-02-22 18:52:54,125 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:53:09,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:53:34,600 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:56:28,782 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:56:29,049 - INFO - Tool: web_search -> société qui a développé Claude 3.5
+2026-02-22 18:56:29,050 - WARNING - Impersonate 'chrome_109' does not exist, using 'random'
+2026-02-22 18:56:29,280 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=soci%C3%A9t%C3%A9%20qui%20a%20d%C3%A9velopp%C3%A9%20Claude%203.5 200
+2026-02-22 18:56:29,382 - INFO - response: https://grokipedia.com/api/typeahead?query=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+Claude+3.5&limit=1 200
+2026-02-22 18:56:29,820 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dsoci%25C3%25A9t%25C3%25A9%2Bqui%2Ba%2Bd%25C3%25A9velopp%25C3%25A9%2BClaude%2B3.5%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 18:56:30,784 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 18:57:07,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:57:15,593 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 18:57:26,359 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:00:18,665 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:00:25,337 - INFO - Tool: web_search -> qui a créé Open AI
+2026-02-22 19:00:25,338 - WARNING - Impersonate 'chrome_128' does not exist, using 'random'
+2026-02-22 19:00:25,717 - INFO - response: https://grokipedia.com/api/typeahead?query=qui+a+cr%C3%A9%C3%A9+Open+AI&limit=1 200
+2026-02-22 19:00:25,793 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=qui%20a%20cr%C3%A9%C3%A9%20Open%20AI 200
+2026-02-22 19:00:26,589 - INFO - response: https://yandex.com/search/site/?text=qui+a+cr%C3%A9%C3%A9+Open+AI&web=1&searchid=7409486 200
+2026-02-22 19:00:50,907 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:01:21,228 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:01:46,289 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:04:00,113 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:04:00,387 - INFO - Tool: web_search -> qui a créé Open AI
+2026-02-22 19:04:00,387 - WARNING - Impersonate 'edge_131' does not exist, using 'random'
+2026-02-22 19:04:01,965 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=qui%20a%20cr%C3%A9%C3%A9%20Open%20AI 200
+2026-02-22 19:04:02,231 - INFO - response: https://grokipedia.com/api/typeahead?query=qui+a+cr%C3%A9%C3%A9+Open+AI&limit=1 200
+2026-02-22 19:04:02,710 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dqui%2Ba%2Bcr%25C3%25A9%25C3%25A9%2BOpen%2BAI%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 19:04:03,647 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 19:04:43,850 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:05:10,003 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:05:54,322 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:29:28,017 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:29:28,291 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 19:29:54,597 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:30:12,004 - INFO - Tool: web_search -> https://example.com
+2026-02-22 19:30:12,009 - WARNING - Impersonate 'chrome_133' does not exist, using 'random'
+2026-02-22 19:30:12,481 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fexample.com&limit=1 200
+2026-02-22 19:30:12,539 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//example.com 200
+2026-02-22 19:30:13,003 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dhttps%253A%252F%252Fexample.com%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 19:30:14,123 - INFO - response: https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_484bc4bf-3651-4cd5-991c-c76ff05bc1af 200
+2026-02-22 19:30:14,836 - INFO - response: https://search.brave.com/search?q=https%3A%2F%2Fexample.com&source=web 200
+2026-02-22 19:31:09,041 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:31:09,359 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 19:31:45,557 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:32:01,754 - INFO - Tool: web_search -> example.com
+2026-02-22 19:32:02,068 - INFO - response: https://grokipedia.com/api/typeahead?query=example.com&limit=1 200
+2026-02-22 19:32:02,168 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=example.com 200
+2026-02-22 19:32:02,368 - INFO - response: https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles=Example.com&explaintext=0&exintro=0&redirects=1 200
+2026-02-22 19:32:03,159 - INFO - response: https://yandex.com/search/site/?text=example.com&web=1&searchid=2987520 200
+2026-02-22 19:32:55,851 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:33:39,989 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:34:26,987 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:35:54,476 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:35:54,790 - INFO - Tool: web_search -> société qui a développé Claude 3.5
+2026-02-22 19:35:54,790 - WARNING - Impersonate 'chrome_114' does not exist, using 'random'
+2026-02-22 19:35:58,309 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=soci%C3%A9t%C3%A9%20qui%20a%20d%C3%A9velopp%C3%A9%20Claude%203.5 200
+2026-02-22 19:35:58,421 - INFO - response: https://grokipedia.com/api/typeahead?query=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+Claude+3.5&limit=1 200
+2026-02-22 19:35:59,024 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dsoci%25C3%25A9t%25C3%25A9%2Bqui%2Ba%2Bd%25C3%25A9velopp%25C3%25A9%2BClaude%2B3.5%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 19:36:00,147 - INFO - response: https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_96243af5-4c07-4121-9da2-628a5635a269 200
+2026-02-22 19:36:01,500 - INFO - response: https://www.mojeek.com/search?q=soci%C3%A9t%C3%A9+qui+a+d%C3%A9velopp%C3%A9+Claude+3.5 200
+2026-02-22 19:36:39,701 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:36:49,457 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:37:12,308 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:39:33,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:39:33,946 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 19:40:01,153 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:40:15,569 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:40:40,435 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:58:32,155 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 19:59:33,041 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:00:28,229 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:10:17,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:10:17,641 - INFO - Tool: web_search -> nouvelles Windows 11 25H2
+2026-02-22 20:10:17,647 - WARNING - Impersonate 'chrome_124' does not exist, using 'random'
+2026-02-22 20:10:18,228 - INFO - response: https://grokipedia.com/api/typeahead?query=nouvelles+Windows+11+25H2&limit=1 200
+2026-02-22 20:10:18,346 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=nouvelles%20Windows%2011%2025H2 200
+2026-02-22 20:10:19,868 - INFO - response: https://www.mojeek.com/search?q=nouvelles+Windows+11+25H2 200
+2026-02-22 20:11:11,242 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:13:18,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:13:50,683 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:28:58,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:29:10,216 - INFO - Tool: web_search -> objectifs de l'association Gard Eau Arbres
+2026-02-22 20:29:10,222 - WARNING - Impersonate 'chrome_123' does not exist, using 'random'
+2026-02-22 20:29:10,737 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=objectifs%20de%20l%27association%20Gard%20Eau%20Arbres 200
+2026-02-22 20:29:10,922 - INFO - response: https://grokipedia.com/api/typeahead?query=objectifs+de+l%27association+Gard+Eau+Arbres&limit=1 200
+2026-02-22 20:29:11,412 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dobjectifs%2Bde%2Bl%2527association%2BGard%2BEau%2BArbres%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 20:29:12,446 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 20:30:08,536 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:30:08,832 - INFO - Tool: web_fetch -> https://gardeauarbres.fr/
+2026-02-22 20:32:37,590 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:33:09,111 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:33:39,014 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 20:34:55,413 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:00:13,990 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:00:17,665 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 21:00:17,667 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:00:54,457 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:01:31,301 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:02:13,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:02:17,273 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 21:02:17,274 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:03:06,834 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:03:35,802 - INFO - Tool: web_search -> https://example.com
+2026-02-22 21:03:35,809 - WARNING - Impersonate 'chrome_133' does not exist, using 'random'
+2026-02-22 21:03:36,141 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//example.com 200
+2026-02-22 21:03:36,257 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fexample.com&limit=1 200
+2026-02-22 21:03:36,705 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dhttps%253A%252F%252Fexample.com%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 21:03:37,668 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 21:04:35,993 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:04:43,228 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:05:03,453 - INFO - Tool: web_search -> https://example.com
+2026-02-22 21:05:03,454 - INFO - Tool: web_search -> https://httpbin.org/get
+2026-02-22 21:05:03,535 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//example.com 200
+2026-02-22 21:05:03,658 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fhttpbin.org%2Fget&limit=1 200
+2026-02-22 21:05:03,658 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fexample.com&limit=1 200
+2026-02-22 21:05:03,694 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//httpbin.org/get 200
+2026-02-22 21:05:03,831 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dhttps%253A%252F%252Fhttpbin.org%252Fget%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 21:05:04,698 - INFO - response: https://consent.yahoo.com/v2/collectConsent?sessionId=3_cc-session_d5f915ac-7254-4528-a61c-e1f938e022cb 200
+2026-02-22 21:05:04,994 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 21:05:05,262 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 21:06:39,705 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:06:47,369 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:07:08,822 - INFO - Tool: web_search -> https://example.com
+2026-02-22 21:07:08,824 - INFO - Tool: web_search -> https://httpbin.org/get
+2026-02-22 21:07:09,020 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fhttpbin.org%2Fget&limit=1 200
+2026-02-22 21:07:09,066 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//example.com 200
+2026-02-22 21:07:09,066 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//httpbin.org/get 200
+2026-02-22 21:07:09,135 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fexample.com&limit=1 200
+2026-02-22 21:07:09,521 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dhttps%253A%252F%252Fhttpbin.org%252Fget%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 21:07:10,393 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 21:07:10,440 - INFO - response: https://www.mojeek.com/search?q=https%3A%2F%2Fexample.com 200
+2026-02-22 21:09:01,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:09:08,956 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:09:34,880 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:10:04,755 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:10:28,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:10:55,287 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:11:22,647 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:11:45,792 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:12:12,501 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:12:43,660 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:13:08,281 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:13:46,132 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:14:10,414 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:14:33,909 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:14:54,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:15:14,539 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:15:37,057 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:15:59,646 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:16:22,689 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:16:45,943 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:17:08,499 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:17:31,103 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:17:53,215 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:18:15,541 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:18:38,058 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:19:00,243 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:19:22,484 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:19:44,631 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:20:05,347 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:20:25,904 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:20:46,804 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:21:07,630 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:21:28,251 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:21:51,221 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:22:13,577 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:22:36,007 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:22:58,573 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:23:21,044 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:23:43,428 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:24:05,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:24:28,451 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:24:50,944 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:25:13,849 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:25:36,251 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:25:58,735 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:26:22,785 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:26:46,035 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:27:08,589 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:27:31,150 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:27:53,696 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:28:14,616 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:28:36,298 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:28:57,222 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:29:43,192 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:29:47,203 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 21:29:47,205 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:31:10,634 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:32:09,676 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:33:07,184 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:33:07,185 - INFO - Tool: web_fetch -> https://httpbin.org/get
+2026-02-22 21:34:21,704 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:35:40,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:35:53,477 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 21:37:04,089 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:38:13,137 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:39:29,009 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:40:33,786 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:40:49,005 - INFO - Tool: web_search -> https://example.com
+2026-02-22 21:40:49,005 - WARNING - Impersonate 'safari_18' does not exist, using 'random'
+2026-02-22 21:40:49,006 - INFO - Tool: web_search -> https://httpbin.org/get
+2026-02-22 21:40:49,358 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fexample.com&limit=1 200
+2026-02-22 21:40:49,358 - INFO - response: https://grokipedia.com/api/typeahead?query=https%3A%2F%2Fhttpbin.org%2Fget&limit=1 200
+2026-02-22 21:40:49,374 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//example.com 200
+2026-02-22 21:40:49,378 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=https%3A//httpbin.org/get 200
+2026-02-22 21:40:49,853 - INFO - response: https://consent.google.com/ml?continue=https://www.google.com/search%3Fq%3Dhttps%253A%252F%252Fhttpbin.org%252Fget%26filter%3D1%26start%3D0%26hl%3Den-US%26lr%3Dlang_en%26cr%3DcountryUS&gl=FR&m=1&pc=srp&uxe=none&cm=2&hl=en&src=1 200
+2026-02-22 21:40:50,224 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 21:40:50,457 - INFO - response: https://www.mojeek.com/search?q=https%3A%2F%2Fhttpbin.org%2Fget 200
+2026-02-22 21:42:00,649 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:44:02,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:45:18,880 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:46:38,699 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:48:03,777 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:49:25,403 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:51:08,422 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:51:52,619 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:54:16,967 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:55:03,260 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:56:37,254 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:57:21,677 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:57:21,955 - INFO - Tool: web_fetch -> https://example.com
+2026-02-22 21:58:42,033 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 21:59:27,282 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:01:03,084 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:01:30,357 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:03:15,360 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:03:46,329 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:05:14,518 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:05:36,478 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:05:58,670 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:06:20,466 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:06:42,340 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:07:04,475 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:07:26,343 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:07:49,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:08:11,830 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:08:33,824 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:08:56,021 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:09:18,849 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:09:41,082 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:10:02,923 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:10:25,028 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:10:47,018 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:11:09,472 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:11:31,785 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:11:54,083 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:12:15,092 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:12:35,890 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:12:56,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:13:17,182 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:13:37,655 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:13:59,213 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:14:21,619 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:14:45,268 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:15:09,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:15:33,995 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:15:58,466 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:16:23,161 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:16:47,941 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:17:12,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:17:37,321 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:18:03,288 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:18:29,153 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:18:55,147 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:19:21,264 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:19:47,196 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:20:13,277 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:20:39,108 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:21:04,946 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:21:31,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:21:58,127 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:22:24,738 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:22:51,968 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:23:19,367 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:23:45,083 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:24:11,398 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:24:35,960 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:24:59,889 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:25:23,839 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:25:47,159 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:26:10,256 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:26:41,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:27:21,822 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:27:52,707 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:28:21,607 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:28:48,423 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:29:19,378 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:29:57,913 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:30:35,141 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:30:57,886 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:31:21,038 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:31:44,289 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:32:06,380 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:32:26,708 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:32:46,737 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:33:06,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:33:26,181 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:33:46,098 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:34:06,152 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:34:38,397 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:35:13,528 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:35:36,603 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:35:57,446 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:36:18,627 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:36:52,775 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:37:25,185 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:37:51,422 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:38:31,302 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:39:02,949 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:39:24,510 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:39:45,562 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:40:07,180 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:40:30,329 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:40:52,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:41:14,110 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:41:46,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:42:52,749 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:44:45,885 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:45:28,716 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:47:01,267 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:47:23,649 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:47:47,221 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:48:08,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:48:31,225 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:48:51,681 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:49:13,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:49:55,743 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:52:31,957 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:53:01,078 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:56:03,950 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:57:03,323 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 22:59:16,320 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:00:41,232 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:00:42,985 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:00:52,166 - INFO - Tool: web_search -> quelles sont les capacités d'un assistant virtuel comme moi
+2026-02-22 23:00:52,177 - WARNING - Impersonate 'chrome_105' does not exist, using 'random'
+2026-02-22 23:00:52,802 - INFO - response: https://grokipedia.com/api/typeahead?query=quelles+sont+les+capacit%C3%A9s+d%27un+assistant+virtuel+comme+moi&limit=1 200
+2026-02-22 23:00:52,829 - INFO - response: https://en.wikipedia.org/w/api.php?action=opensearch&profile=fuzzy&limit=1&search=quelles%20sont%20les%20capacit%C3%A9s%20d%27un%20assistant%20virtuel%20comme%20moi 200
+2026-02-22 23:00:54,138 - INFO - HTTP Request: POST https://html.duckduckgo.com/html/ "HTTP/2 200 OK"
+2026-02-22 23:02:35,579 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:04:03,807 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:06:48,110 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:07:14,559 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:09:51,551 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:10:44,595 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:12:26,885 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:12:48,983 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:13:11,419 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:13:32,790 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:13:54,479 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:14:15,786 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:14:37,932 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:15:01,364 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:15:23,371 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:15:44,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:16:07,216 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:16:27,862 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:16:49,174 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:17:11,237 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:17:32,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:17:54,721 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:18:16,533 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:18:37,490 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:18:58,674 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:19:20,386 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:19:40,999 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:20:03,400 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:20:25,565 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:20:46,604 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:21:07,293 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:21:28,063 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:21:48,599 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:22:09,437 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:22:31,225 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:22:52,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:23:14,154 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:23:35,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:23:57,744 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:24:20,165 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:24:42,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:25:03,285 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:25:24,929 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:25:46,564 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:26:08,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:26:30,167 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:26:52,324 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:27:17,029 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:27:39,517 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:28:01,048 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:28:22,585 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:28:43,452 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:29:04,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:29:26,116 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:29:47,726 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:30:22,155 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:30:57,627 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:31:20,979 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:31:43,255 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:32:05,544 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:32:28,564 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:33:02,945 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:33:39,146 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:34:06,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:34:28,733 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:34:50,723 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:35:13,572 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:35:35,175 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:35:58,582 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:36:21,833 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:36:42,549 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:37:03,186 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:37:24,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:37:45,169 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:38:06,678 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:38:29,382 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:38:51,050 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:39:12,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:39:33,508 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:39:55,052 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:40:17,348 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:40:48,812 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:41:18,558 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:41:58,434 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:42:26,972 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-22 23:42:49,416 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:56:11,832 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:56:36,406 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:56:49,213 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:56:50,074 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:58:51,891 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:59:08,892 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:59:16,837 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 10:59:31,439 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:01:42,581 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:01:58,917 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:02:06,936 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:02:20,972 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:05:34,450 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:14:35,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 500 Internal Server Error"
+2026-02-23 11:16:27,307 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:17:31,206 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:18:48,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:19:45,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:20:44,959 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:21:49,039 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:22:52,808 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:23:54,496 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:24:57,812 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:25:57,212 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:26:59,299 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:27:58,717 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:29:01,515 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:30:01,276 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:31:03,071 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:32:02,373 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:33:04,416 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:34:03,139 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:35:05,620 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:36:07,411 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:37:10,010 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:38:11,375 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:39:11,462 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:39:15,650 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:40:15,134 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:40:31,613 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:58:31,315 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:58:34,351 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 11:58:57,667 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 12:03:03,847 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 12:03:50,027 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-23 12:04:48,120 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"

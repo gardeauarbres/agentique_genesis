@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 120
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+lint.select = ["E", "F", "I", "W", "UP"]
+lint.ignore = ["E501"] # Laissé à Black
+
+[tool.isort]
+profile = "black"
+line_length = 120
