@@ -1,0 +1,21 @@
+{
+  "goal": "Donne moi un resume de la page https://example.com",
+  "verdict": "PASS",
+  "tool_count": 1,
+  "read_bytes": 0,
+  "search_count": 0,
+  "iteration": 1,
+  "facts": [
+    "Info de web_fetch: Example Domain Example Domain This domain is for use in documentation examples without needing permission. Avoid use in operations. Learn more..."
+  ],
+  "tool_events": [
+    {
+      "tool": "web_fetch",
+      "args": {
+        "url": "https://example.com"
+      },
+      "preview": "Example Domain Example Domain This domain is for use in documentation examples without needing permission. Avoid use in operations. Learn more"
+    }
+  ],
+  "critique_history_count": 1
+}

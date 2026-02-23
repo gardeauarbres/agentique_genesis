@@ -1,0 +1,1 @@
+print("Hello depuis un script local")
