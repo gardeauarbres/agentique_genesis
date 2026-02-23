@@ -16,6 +16,8 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 import concurrent.futures
+import chromadb
+from chromadb.config import Settings
 
 # ====== CONFIGURATION ======
 MODEL_NAME = "qwen2.5:7b-instruct"
@@ -26,8 +28,10 @@ OUTPUT_DIR = os.path.join(ROOT_DIR, "output")
 SCRIPTS_DIR = os.path.join(ROOT_DIR, "scripts")
 LOG_FILE = os.path.join(OUTPUT_DIR, "agent.log")
 JSON_MEMORY_FILE = os.path.join(OUTPUT_DIR, "memory.json")
+CHROMA_DIR = os.path.join(OUTPUT_DIR, "chroma_db")
+EMBED_MODEL = "nomic-embed-text"
 
-for d in (INPUT_DIR, OUTPUT_DIR, SCRIPTS_DIR): os.makedirs(d, exist_ok=True)
+for d in (INPUT_DIR, OUTPUT_DIR, SCRIPTS_DIR, CHROMA_DIR): os.makedirs(d, exist_ok=True)
 
 ALLOWED_SCRIPTS = {"hello.py", "list_input.py", "analyze_csv.py"}
 SANDBOX_IMAGE = "agent-sandbox-v5"
@@ -39,23 +43,44 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format='%(asctime)s -
 llm_vision = ChatOllama(model=VISION_MODEL, temperature=0)
 ddgs = DDGS()
 
-# ====== MEMOIRE PERSISTANTE (JSON) ======
-def _save_memory(fact: str):
-    memo = []
-    if os.path.exists(JSON_MEMORY_FILE):
-        try:
-            with open(JSON_MEMORY_FILE, "r", encoding="utf-8") as f: memo = json.load(f)
-        except: memo = []
-    memo.append({"fact": fact, "ts": datetime.now().isoformat()})
-    with open(JSON_MEMORY_FILE, "w", encoding="utf-8") as f: json.dump(memo, f, indent=2)
+# ====== MEMOIRE PERSISTANTE (ChromaDB) ======
+def _get_chroma_collection():
+    client = chromadb.PersistentClient(path=CHROMA_DIR)
+    return client.get_or_create_collection(name="agent_memory")
 
-def _recall_memory(query: str):
-    if not os.path.exists(JSON_MEMORY_FILE): return "Pas de memoire."
+def _get_embedding(text: str):
     try:
-        with open(JSON_MEMORY_FILE, "r", encoding="utf-8") as f: memo = json.load(f)
-        matches = [m["fact"] for m in memo if query.lower() in m["fact"].lower()]
-        return "\n".join(matches[-5:]) or "Pas de correspondance."
-    except: return "Erreur memoire."
+        res = requests.post("http://localhost:11434/api/embeddings", json={"model": EMBED_MODEL, "prompt": text})
+        return res.json()["embedding"]
+    except Exception as e:
+        logging.error(f"Embedding error: {e}")
+        return [0.0] * 768 # Fallback
+
+def _save_memory_v6(fact: str):
+    collection = _get_chroma_collection()
+    embedding = _get_embedding(fact)
+    doc_id = hashlib.md5(fact.encode()).hexdigest()
+    collection.upsert(
+        ids=[doc_id],
+        embeddings=[embedding],
+        documents=[fact],
+        metadatas=[{"ts": datetime.now().isoformat()}]
+    )
+
+def _recall_memory_v6(query: str):
+    collection = _get_chroma_collection()
+    embedding = _get_embedding(query)
+    results = collection.query(
+        query_embeddings=[embedding],
+        n_results=5
+    )
+    if results and results["documents"]:
+        return "\n".join(results["documents"][0]) or "Pas de correspondance."
+    return "Pas de memoire."
+
+# Backwards compatibility / Transition
+def _save_memory(fact: str): _save_memory_v6(fact)
+def _recall_memory(query: str): return _recall_memory_v6(query)
 
 # ====== TOOLS ======
 
@@ -98,10 +123,12 @@ def web_fetch(url: str) -> str:
 
 @tool
 def write_and_run_code(code: str) -> str:
-    """Execute Python dans Docker (numpy, pandas)."""
+    """Execute Python dans Docker (numpy, pandas). Limité à 30s, 256MB, Pas de réseau."""
     try:
-        res = subprocess.run(["docker", "run", "--rm", "--network", "none", "--memory", "256m", SANDBOX_IMAGE, "python", "-c", code], capture_output=True, text=True, timeout=30)
+        res = subprocess.run(["docker", "run", "--rm", "--network", "none", "--memory", "256m", "--cpus", "0.5", SANDBOX_IMAGE, "python", "-c", code], capture_output=True, text=True, timeout=30)
         return f"Out: {res.stdout}\nErr: {res.stderr}"
+    except subprocess.TimeoutExpired:
+        return "Erreur: Le script a dépassé la limite de temps (30s)."
     except Exception as e: return str(e)
 
 @tool
@@ -125,7 +152,11 @@ def describe_image(filename: str) -> str:
         with open(target, "rb") as f:
             img_b64 = base64.b64encode(f.read()).decode("utf-8")
         msg = HumanMessage(content=[
-            {"type": "text", "text": "Décris précisément le contenu de cette image."},
+            {"type": "text", "text": """Analyse cette image de manière structurée :
+1. **Description Générale** : Ce que l'on voit au premier coup d'œil.
+2. **Éléments Clés** : Détails importants, textes visibles, objets spécifiques.
+3. **Contexte technique** : Couleurs dominantes, éclairage, type d'image (photo, graphique, code, etc.).
+Réponds avec précision pour aider un agent intelligent à comprendre l'objectif de l'image."""},
             {"type": "image_url", "image_url": f"data:image/jpeg;base64,{img_b64}"}
         ])
         res = llm_vision.invoke([msg])
@@ -143,11 +174,17 @@ class AgentState(TypedDict):
     iteration: int
     verdict: str
 
-def build_v5(model_name: str = MODEL_NAME):
+def build_v5(model_name: str = MODEL_NAME, vision_model: str = VISION_MODEL):
+    global llm_vision
+    llm_vision = ChatOllama(model=vision_model, temperature=0)
     # LLM local pour cette instance du graph
     llm_local = ChatOllama(model=model_name, temperature=0, format="json")
     llm_text_local = ChatOllama(model=model_name, temperature=0)
     llm_tools_local = llm_text_local.bind_tools(tools)
+    llm_vision_local = ChatOllama(model=vision_model, temperature=0)
+
+    # Injection du modèle de vision dans les outils si nécessaire ou via le state
+    # Ici on va plutôt passer le modèle au planner via le système
 
     def planner_node(state: AgentState):
         system = f"Tu es le Planner V5 (Modèle: {model_name}). Utilise 'recall_memory' en premier. 'memorize' les faits clés. Pour voir une image, utilise 'describe_image'."
@@ -157,12 +194,26 @@ def build_v5(model_name: str = MODEL_NAME):
     def researcher_node(state: AgentState):
         last = state["messages"][-1]
         msgs = []
+        new_tool_count = state.get("tool_count", 0)
+        new_search_count = state.get("search_count", 0)
+        
         if hasattr(last, "tool_calls"):
             for tc in last.tool_calls:
+                new_tool_count += 1
+                if tc["name"] == "web_search":
+                    new_search_count += 1
+                
                 fn = TOOLS_BY_NAME.get(tc["name"])
+                
+                # Cas spécial pour vision : on injecte le modèle choisi
+                if tc["name"] == "describe_image":
+                    # On pourrait passer vision_model ici si l'outil le supportait. 
+                    # Pour l'instant on utilise llm_vision global mais on pourrait le rendre local.
+                    pass
+                
                 res = fn.invoke(tc["args"]) if fn else "Err"
                 msgs.append(ToolMessage(tool_call_id=tc["id"], content=str(res)))
-        return {"messages": msgs}
+        return {"messages": msgs, "tool_count": new_tool_count, "search_count": new_search_count}
 
     def writer_node(state: AgentState):
         res = llm_text_local.invoke([SystemMessage(content="Rédige le rapport final en Markdown.")] + state["messages"])

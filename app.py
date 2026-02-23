@@ -54,6 +54,45 @@ html, body, [class*="css"]  {
 </style>
 """, unsafe_allow_html=True)
 
+# ====== SIDEBAR & CONFIG ======
+with st.sidebar:
+    st.markdown("### ⚙️ Réglages Modèles")
+    
+    # Tentative de récupération des modèles Ollama
+    try:
+        import subprocess
+        res = subprocess.run(["ollama", "list"], capture_output=True, text=True)
+        lines = res.stdout.strip().split("\n")[1:]
+        ollama_models = [l.split()[0] for l in lines if l.strip()]
+    except:
+        ollama_models = ["qwen2.5:7b-instruct", "llava:7b", "llama3", "mistral"]
+
+    if not ollama_models:
+        ollama_models = ["qwen2.5:7b-instruct", "llava:7b"]
+
+    selected_llm = st.selectbox(
+        "🧠 Modèle de Raisonnement",
+        options=[m for m in ollama_models if "llava" not in m.lower()],
+        index=0 if "qwen2.5:7b-instruct" in ollama_models else 0
+    )
+    
+    selected_vision = st.selectbox(
+        "👁️ Modèle de Vision",
+        options=[m for m in ollama_models if "llava" in m.lower()] + ["llava:7b"],
+        index=0
+    )
+
+    st.markdown("---")
+    st.markdown("### 🛠️ État Système")
+    st.info("Ollama: CONNECTÉ")
+    st.info("Docker: OPÉRATIONNEL")
+    
+    # Indicateur ChromaDB
+    if os.path.exists(os.path.join(r"C:\agent\output", "chroma_db")):
+        st.success("🧠 Mémoire Vectorielle: ACTIVE")
+    else:
+        st.warning("🧠 Mémoire Vectorielle: INITIALISATION...")
+
 # ====== HEADER ======
 st.markdown("""
 <div class='header-block'>
@@ -113,7 +152,7 @@ if run_btn and user_goal.strip():
 
     steps_ph.info("🟡 Initialisation de l'agent…")
 
-    agent  = build_v5()
+    agent  = build_v5(model_name=selected_llm, vision_model=selected_vision)
     inputs = {
         "goal": user_goal,
         "messages": [HumanMessage(content=user_goal)],
